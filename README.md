@@ -20,7 +20,7 @@ This repository provides an introduction to **time series forecasting** using ma
 ## Installation
 Clone this repository:
 ```sh
-git clone https://github.com/yourusername/forecasting-basics.git
+git clone https://github.com/harshdhiman7/Transformers.git
 cd forecasting-basics
 ```
 
@@ -32,12 +32,12 @@ pip install -r requirements.txt
 ## Usage
 Run the main script for data preprocessing and model training:
 ```sh
-python main.py
+python pipeline/train.py
 ```
 
 For interactive visualization, run:
 ```sh
-streamlit run app.py
+streamlit run pipeline/app.py
 ```
 
 ## Dataset
